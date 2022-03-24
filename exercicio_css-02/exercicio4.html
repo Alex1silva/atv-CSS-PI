@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio - CSS</title>
+</head>
+<body>
+  <!-- Div com frese -->
+  <div class="container1">
+    <div class="div_1">
+      <p class="paragrafo">Eu sou um parágrafo com fonte Arial que ficou bem legal!</p>
+    </div>
+  </div>
+
+  <!-- Div Colorida ao centro -->
+  <div class="container2">
+    <div class="div_cor1"></div>
+    <div class="div_cor2"></div>
+    <div class="div_cor3"></div>
+    <div class="div_cor4"></div>
+  </div>
+
+  <!-- Div colorida final-pagina -->
+  <div class="container3">
+    <div class="div_cor-final1"></div>
+    <div class="div_cor-final2"></div>
+    <div class="div_cor-final3"></div>
+  </div>
+
+</body>
+</html>
+
+<style>
+  /* Div com frase */
+  .container1{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 250px;
+    margin: 10px;
+    background-color: #915c5c;
+    border: 10px solid black;
+  }
+  .div_1{
+    width: 80%;
+    margin: 30px;
+    background-color: white;
+    border: 10px solid rgb(29, 29, 92);
+  }
+  .paragrafo{
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 1000;
+    text-align: center;
+    color: rgb(67, 67, 255);
+  }
+
+  /* Div colorida ao centro */
+  .container2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .div_cor1{
+    width: 60%;
+    height: 25px;
+    background-color: blue;
+  }
+  .div_cor2{
+    width: 30%;
+    height: 25px;
+    background-color: purple;
+  }
+  .div_cor3{
+    width: 50%;
+    height: 25px;
+    background-color: green;
+  }
+  .div_cor4{
+    width: 40%;
+    height: 25px;
+    background-color: yellow;
+  }
+
+  /* Div colorida final-pagina */
+  .container3{
+    display: flex;
+    margin-top: 5%;
+  }
+  .div_cor-final1{
+    background-color: red;
+    height: 25px;
+    width: 45%;
+  }
+  .div_cor-final2{
+    background-color: teal;
+    height: 25px;
+    width: 20%;
+  }
+  .div_cor-final3{
+    background-color: greenyellow;
+    height: 25px;
+    width: 35%;
+  }
+  
+
+</style>

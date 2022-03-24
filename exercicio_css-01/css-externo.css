@@ -1,0 +1,35 @@
+body{
+  height: 100vh;
+}
+/* Elemento A  */
+.div-A{
+  background-color: rgb(225, 0, 255);
+  width: 70%;
+  height: 30%;
+}
+.div-filho-A{
+  width: 60%;
+  height: 80%;
+  background-color: rgb(255, 0, 43);
+  border: 2px dotted rgb(253, 183, 255);
+}
+.paragrafo{
+  color: whitesmoke;
+  background-color: black;
+  height: 55%;
+  font-size: 30px;
+  font-weight: 1000;
+  text-align: center;
+}
+
+/* Elemento A  */
+.div-B{
+  background-color: rgb(73, 61, 124);
+  width: 40%;
+  height: 50%;
+}
+.div-filho-B{
+  background-color: rgb(153, 0, 255);
+  width: 40%;
+  height: 60%;
+}
